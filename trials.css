@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "header header"
+    "menu content"
+    "footer footer"
+}
+
+.header {
+    grid-area: header;
+}
+.menu {
+    grid-area: menu;
+}
+.content {
+    grid-area: content;
+}
+.footer {
+    grid-area: footer;
+}
