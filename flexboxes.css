@@ -4,3 +4,6 @@ flexboxes.css
     flex-direction: row-reverse;
 
 }
+.header {
+    text-align: center;
+}
